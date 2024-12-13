@@ -74,11 +74,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
+    margin-top: 20px;
+
   }
   
   .about-content {
     max-width: 50%;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-top: 20px;
   }
   
   .about-image {
@@ -93,7 +98,7 @@
     margin-bottom: 50px;
   }
   
-  .featured-dishes h2 {
+   h2 {
     font-size: 36px;
     margin-bottom: 20px;
   }
@@ -187,7 +192,7 @@
       font-size: 16px;
     }
   
-    .featured-dishes h2 {
+    h2 {
       font-size: 28px;
     }
   
@@ -206,7 +211,7 @@
       font-size: 14px;
     }
   
-    .featured-dishes h2 {
+    h2 {
       font-size: 24px;
     }
   }

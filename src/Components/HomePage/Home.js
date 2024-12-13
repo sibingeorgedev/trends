@@ -15,7 +15,7 @@ function Home() {
           <button>Explore Menu</button>
         </div>
       </div>
-
+      
       <div className="about-section">
         <div className="about-content">
         <h2>Our Promise</h2>{/*Major Content Of the page*/}
