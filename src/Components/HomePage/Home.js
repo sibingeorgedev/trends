@@ -14,9 +14,6 @@ function Home() {
           <p>Your destination for mouth-watering meals and an unforgettable dining experience.</p>
           <button>Explore Menu</button>
         </div>
-        <div className="hero-image">
-          <img src="/Images/hero.jpg" alt="Delicious food" />{/*Header Image Of the page*/}
-        </div>
       </div>
       
       <div className="about-section">
