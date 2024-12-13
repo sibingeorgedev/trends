@@ -1,87 +1,118 @@
 /* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.home {
+    font-family: 'Arial', sans-serif;
+    color: #333;
     line-height: 1.6;
+    padding: 20px;
   }
   
-  .home-container {
-    text-align: center;
-  }
-  
-  .header {
-    background-color: #ff6347;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin: 0 15px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .nav-links a:hover {
-    text-decoration: underline;
-  }
-  
+  /* Hero Section */
   .hero {
-    text-align: center;
-    padding: 50px;
-    background: url('../../Images/hero.jpg') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    background: linear-gradient(45deg, #fa2929, #ff7e5f);
+    border-radius: 20px;
+    overflow: hidden;
     color: white;
+    padding: 40px;
+  }
+  
+  .hero-content {
+    max-width: 50%;
   }
   
   .hero h1 {
     font-size: 48px;
-    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
   }
   
   .hero button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #ff6347;
+    padding: 12px 24px;
+    background-color: white;
+    color: #B00303;
     border: none;
-    cursor: pointer;
+    border-radius: 20px;
     font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
   .hero button:hover {
-    background-color: #f4f4f4;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
   }
   
-  .about, .menu, .contact {
-    padding: 20px;
-    margin: 10px 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
+  .hero-image img {
+    width :400px;
+    height: 600px;
+    border-radius: 20px;
   }
   
-  .footer {
+  /* About Section */
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .about-content {
+    max-width: 50%;
+  }
+  
+  .about-image {
+    max-width: 40%;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Featured Dishes Section */
+  .featured-dishes {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
+    margin-bottom: 50px;
+  }
+  
+  .featured-dishes h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .dishes-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .dish {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .dish img {
+    width:400px;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .dish h3 {
+    font-size: 20px;
+  }
+  
+  .dish:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   }
   
