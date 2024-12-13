@@ -18,7 +18,7 @@ function Home() {
           <img src="/Images/hero.jpg" alt="Delicious food" />{/*Header Image Of the page*/}
         </div>
       </div>
-
+      
       <div className="about-section">
         <div className="about-content">
         <h2>Our Promise</h2>{/*Major Content Of the page*/}
