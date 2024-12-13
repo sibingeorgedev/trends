@@ -51,7 +51,7 @@
   }
   
   .hero-image img {
-    width :400px;
+    width: 400px;
     height: 600px;
     border-radius: 20px;
   }
@@ -101,7 +101,7 @@
   }
   
   .dish img {
-    width:400px;
+    width: 400px;
     height: 300px;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -114,5 +114,87 @@
   .dish:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .hero-image img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .about-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-content {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    .about-image {
+      max-width: 100%;
+    }
+  
+    .dishes-container {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .dish {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  
+    .dish img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 36px;
+    }
+  
+    .hero p {
+      font-size: 16px;
+    }
+  
+    .featured-dishes h2 {
+      font-size: 28px;
+    }
+  
+    .dish h3 {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero {
+      padding: 15px;
+    }
+  
+    .hero button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  
+    .featured-dishes h2 {
+      font-size: 24px;
+    }
   }
   
